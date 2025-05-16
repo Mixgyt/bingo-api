@@ -3,7 +3,7 @@ import {getTableros} from './bingo_gen.js';
 import {Partida} from './partida.js';
 
 const app = express();
-const port = 3000;
+const port = 3000 || process.env.PORT;
 let partidas = [];
 
 app.get('/api/tablero', (req, res) =>{
