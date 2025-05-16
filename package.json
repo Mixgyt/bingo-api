@@ -1,0 +1,17 @@
+{
+  "name": "bingo-api",
+  "version": "0.1.0",
+  "description": "API de bingo creada para complementar el proyecto de bingo con tecnoligas WEB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "HDP Web Team",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
